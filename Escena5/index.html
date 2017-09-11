@@ -11,14 +11,16 @@
   </head>
   <body>
     <a-scene>
-     <a-entity position="0 2.25 0" particle-system="preset: snow; texture: 0.png; size: 3"></a-entity>
-     <a-entity position="0 2.25 0" particle-system="preset: snow; texture: 1.png; size: 3"></a-entity>
-     <a-entity position="0 2.25 0" particle-system="preset: rain; texture: 0.png; size: 1"></a-entity>
-     <a-entity position="0 2.25 0" particle-system="preset: rain; texture: 1.png; size: 1"></a-entity>
+     <a-entity position="0 2.25 0" particle-system="preset: snow; texture: 0a.png; size: 3"></a-entity>
+     <a-entity position="0 2.25 0" particle-system="preset: snow; texture: 1a.png; size: 3"></a-entity>
+     <a-entity position="0 2.25 0" particle-system="preset: snow; texture: 0a.png; size: 2"></a-entity>
+     <a-entity position="0 2.25 0" particle-system="preset: snow; texture: 1a.png; size: 2"></a-entity>
+     <a-entity position="0 2.25 0" particle-system="preset: rain; texture: 0a.png; size: 2"></a-entity>
+     <a-entity position="0 2.25 0" particle-system="preset: rain; texture: 1a.png; size: 2"></a-entity>
      <a-entity position="0 0 -30" geometry="primitive:plane; height: 10; width: 22" material="shader:gif;src:url(unable.gif);opacity:.5"></a-entity>
      <a-sound src="escena5_fondo_loop.aac" autoplay="true" loop="true" volume=".5" position="0 0 0"></a-sound> 
      <a-sound src="escena5_voz.aac" autoplay="true" loop="false" volume=".5" position="0 0 0"></a-sound>  
-     <a-sky color="#000000"></a-sky>
+     <a-sky src="back.jpg"></a-sky>
     </a-scene>
   </body>
 </html>
