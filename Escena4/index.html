@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Escena 4</title>
+    <meta name="description" content="Escena4">
+    <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script> 
+    <script src="aframe-gif-shader.min.js"></script>
+    <script src="aframe-gif-component.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-entity position="-14.5 1.2 14.7" rotation="0 130 0" geometry="primitive:plane; height: 12.5; width: 8" material="shader:gif;src:url(1.gif);opacity:1"></a-entity>
+      <a-sound src="escena4_fondo_loop.aac" autoplay="true" loop="true" volume=".5" position="0 0 0"></a-sound> 
+      <a-sound src="escena4_voz.aac" autoplay="true" loop="false" volume=".5" position="0 0 0"></a-sound>  
+      <a-sky src="escena-img-4.jpg"></a-sky>
+    </a-scene>
+  </body>
+</html>
